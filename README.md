@@ -21,3 +21,16 @@
 ## Recomendações gerais:
 - Faça um template de treino, validação e teste que funcione para uma API de modelo.
 - Crie a API para cada modelo que será usado e use o template.
+
+
+# Resultados:
+## 1. Base Models
+| Model  | Accuracy  | Execution time|
+|---|---|---|
+|Random Forest|0.8764|96.59|
+|SVM|0.8463|395.96|
+|Decision Tree|0.7888|49.03
+|KNN|0.8554|0.03|
+|Naive Bayes|0.5856|0.35|
+|Logistic Regression|0.8438|39.95
+|AdaBoost|0.5928|242.75|
