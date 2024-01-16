@@ -24,13 +24,22 @@
 
 
 # Resultados:
-## 1. Base Models
-| Model  | Accuracy  | Execution time|
-|---|---|---|
-|Random Forest|0.8764|96.59|
-|SVM|0.8463|395.96|
-|Decision Tree|0.7888|49.03
-|KNN|0.8554|0.03|
-|Naive Bayes|0.5856|0.35|
-|Logistic Regression|0.8438|39.95
-|AdaBoost|0.5928|242.75|
+|    Model             |  Accuracy  | Execution Time(s) |
+|----------------------|------------|--------------------|
+| Random Forest        |   0.8773   |      98.2990       |
+| SVCLinear            |   0.8463   |     362.3468       |
+| SVM                  |   0.9002   |     258.6090       |
+| Decision tree        |   0.8008   |      21.8467       |
+| KNN                  |   0.8577   |       0.0227       |
+| Logistic Regression  |   0.8413   |      26.3970       |
+| Naive Bayes          |   0.5856   |       0.2897       |
+| AdaBoost             |   0.5928   |     240.3844       |
+| VGG16                |   0.7850   |       8.5534       |
+| VGG19                |   0.8290   |       9.5304       |
+| ResNet50             |   0.8250   |      12.0556       |
+| ResNet152            |   0.3850   |      22.9346       |
+| InceptionV3          |   0.6310   |       9.7400       |
+| DenseNet121          |   0.6790   |      13.7981       |
+| DenseNet201          |   0.6580   |     121.0056       |
+| MLP                  |   0.9111   |      27.8681       |
+| CNN_model            |   0.9111   |      27.8681       |
